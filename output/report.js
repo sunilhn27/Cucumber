@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("F:/Selenium The Grand Final/BDD/src/com/testing/rec.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("F:/Selenium The Grand Final/BDD/src/Testingwithmap/regwithmap.feature");
 formatter.feature({
   "name": "Testing Add in recruitment",
   "description": "",
@@ -13,15 +13,19 @@ formatter.step({
   "name": "User should be login",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "Recruitmentsteps.user_should_be_login()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "Enter username and password",
   "rows": [
+    {
+      "cells": [
+        "username",
+        "password"
+      ]
+    },
     {
       "cells": [
         "Admin",
@@ -31,45 +35,46 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({
-  "location": "Recruitmentsteps.enter_username_and_password(DataTable)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "Click on login",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "Recruitmentsteps.click_on_login()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "Click on Recruitment button",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "Recruitmentsteps.click_on_Recruitment_button()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "Click on Add button",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "Recruitmentsteps.click_on_Add_button()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "enter firstname middlename lastname email phno",
   "rows": [
+    {
+      "cells": [
+        "FirstName",
+        "Middlename",
+        "lastname",
+        "Emailid",
+        "Phno"
+      ]
+    },
     {
       "cells": [
         "sunil",
@@ -91,10 +96,8 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({
-  "location": "Recruitmentsteps.enter_firstname_middlename_lastname_email_phno(DataTable)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 });
